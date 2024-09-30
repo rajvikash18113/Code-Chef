@@ -17,8 +17,9 @@ int main()
 
     while(t--)
     {
-        cin >> n >> x;
-        if(n % 6 == 0)
+        cin >> n >> x;  
+        // this loop will return the number of subscription needed if the number of people is in multiple of 6
+        if(n % 6 == 0) 
         {
             int subs = n / 6;
             cout << subs * x << endl;
