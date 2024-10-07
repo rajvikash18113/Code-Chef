@@ -14,15 +14,16 @@ For each test case, output in a single line - the maximum number of bags Chef ca
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-	
+int main()
+{
+
     int t;
     cin >> t;
-    while(t--)
+    while (t--)
     {
-        int x,y;
+        int x, y;
         cin >> x >> y;
-        int t = x*y;
+        int t = x * y;
         int bag = t / 100;
         cout << bag << endl;
     }
