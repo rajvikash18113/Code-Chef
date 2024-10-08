@@ -13,7 +13,6 @@ Note: You can find the definition of an even number here.
 Input Format
 The first line of input consists of a single integer N denoting the number of soldiers. The second line of input consists of N
 space-separated integers A1, A2, ..., An, where A¡ denotes the number of weapons that the ith soldier is holding.
-
 */
 
 #include <iostream>
